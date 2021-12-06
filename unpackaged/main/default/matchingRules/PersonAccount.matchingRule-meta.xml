@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><MatchingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <matchingRules>
+        <fullName>BRP_Person_Account_matching_rule</fullName>
+        <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+        <label>BRP Person Account matching rule</label>
+        <matchingRuleItems>
+            <blankValueBehavior>NullNotAllowed</blankValueBehavior>
+            <fieldName>PersonEmail</fieldName>
+            <matchingMethod>Exact</matchingMethod>
+        </matchingRuleItems>
+        <matchingRuleItems>
+            <blankValueBehavior>NullNotAllowed</blankValueBehavior>
+            <fieldName>Email__pc</fieldName>
+            <matchingMethod>Exact</matchingMethod>
+        </matchingRuleItems>
+        <matchingRuleItems>
+            <blankValueBehavior>NullNotAllowed</blankValueBehavior>
+            <fieldName>Phone</fieldName>
+            <matchingMethod>Exact</matchingMethod>
+        </matchingRuleItems>
+        <matchingRuleItems>
+            <blankValueBehavior>NullNotAllowed</blankValueBehavior>
+            <fieldName>PersonMobilePhone</fieldName>
+            <matchingMethod>Exact</matchingMethod>
+        </matchingRuleItems>
+        <ruleStatus>Active</ruleStatus>
+    </matchingRules>
+</MatchingRules>
